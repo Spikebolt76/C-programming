@@ -17,7 +17,7 @@ int main()
         reverseNum = reverseNum * 10 + remain;
         num /= 10;
     }
-
+                                                                            
     if (orgNum == reverseNum)
     {
         printf("\n%d is a palindrome.", orgNum);

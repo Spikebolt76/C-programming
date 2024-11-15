@@ -23,7 +23,7 @@ bool isPrime(int num)
 
 bool isArmstrong(int num)
 {
-    int expnt = 0, sum = 0;
+    int expnt = 0, sum = 0, digit = 0;
     int buffer = num;
 
     while (buffer != 0)
@@ -35,18 +35,12 @@ bool isArmstrong(int num)
     buffer = num;
     while (buffer != 0)
     {
-        sum += (int)pow(buffer % 10, expnt);
+        digit = buffer % 10;
+        sum += (int)pow(digit, expnt);
         buffer /= 10;
     }
 
-    if(num == sum)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return num == sum;
 }
 
 bool isPerfect(int num)
@@ -62,12 +56,5 @@ bool isPerfect(int num)
         }
     }
 
-    if (sum == num)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return num == sum;
 }

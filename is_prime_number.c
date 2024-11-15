@@ -11,6 +11,7 @@ int main()
     int num, i;
     int isPrime = 1; // Assume the number is prime initially //(flag)
 
+    
     // Ask the user for input
     printf("Enter a number: ");
     scanf("%d", &num);

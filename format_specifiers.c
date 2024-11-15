@@ -12,7 +12,7 @@
     // %1 = minimum field width
     // %- = left align
     
-int main()
+int main() 
 {
     float item1 = 5.75;
     float item2 = 10.00;

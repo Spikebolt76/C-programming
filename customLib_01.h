@@ -6,7 +6,7 @@
 #include <stdbool.h>
 
 bool isPrime(int num);
-bool isArmstrom(int num);
+bool isArmstrong(int num);
 bool isPerfect(int num);
 
 #endif
