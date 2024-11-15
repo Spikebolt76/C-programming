@@ -18,16 +18,16 @@
     return 0;
 } */
 
-//without using 'temp' variable:-
+// without using 'temp' variable:-
 int main()
 {
-    int a, b;
+    int a = 5, b = 10;
 
-    printf("Enter a: ");
-    scanf("%d", &a);
-    printf("Enter b: ");
-    scanf("%d", &b);
+    // Arithmetic operations to swap values
+    a = a + b;
+    b = a - b;
+    a = a - b;
 
-
-
+    printf("a = %d, b = %d\n", a, b);
+    return 0;
 }

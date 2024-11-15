@@ -25,10 +25,10 @@ int main()
         next = first + second;
         printf("%lld ", next);
 
-        first = second;   //update the first and second predecessors
-        second = next; 
+        first = second; // update the first and second predecessors
+        second = next;
 
-        if (i < n-1)
+        if (i < n - 1)
         {
             printf(",");
         }

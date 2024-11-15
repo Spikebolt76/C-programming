@@ -20,7 +20,7 @@ enum Direction dir;  // Current direction
 int food_x, food_y;  // Position of food
 int score;
 int game_over;
-time_t food_spawn_time;  // Time when food was spawned
+time_t food_spawn_time;  // Time when food was spawnedwa
 
 // Function to initialize the game
 void init_game() {

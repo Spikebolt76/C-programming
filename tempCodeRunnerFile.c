@@ -1,1 +1,1 @@
- Count digits, white spaces, others
+
